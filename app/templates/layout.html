@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Company</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto+Slab|Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/global.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#"><img src="images/logo.png" alt="" class="brand-header"></a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sobre Nós <span class="seta"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Selecionar item 01</a></li>
+                                    <li><a href="#">Ou item 02</a></li>
+                                    <li><a href="#">Selecionar esse</a></li>
+                                    <li><a href="#">Ou esse</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Destinos <span class="seta"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Selecionar item 01</a></li>
+                                    <li><a href="#">Ou item 02</a></li>
+                                    <li><a href="#">Selecionar esse</a></li>
+                                    <li><a href="#">Ou esse</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Acomodações <span class="seta"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Selecionar item 01</a></li>
+                                    <li><a href="#">Ou item 02</a></li>
+                                    <li><a href="#">Selecionar esse</a></li>
+                                    <li><a href="#">Ou esse</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contato<span class="seta"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Selecionar item 01</a></li>
+                                    <li><a href="#">Ou item 02</a></li>
+                                    <li><a href="#">Selecionar esse</a></li>
+                                    <li><a href="#">Ou esse</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container-fluid -->
+            </nav>
+        </div>
+    </header>
+
+
+    {% block content %} {% endblock %}
+
+    <footer>
+        <div class="container">
+            <div class="col-lg-6 col-sm-6 col-xs-12 social-media">
+                <a href="#">
+                    <li class="col-sm-4 col-xs-12 fb">
+                        <f></f>Facebook
+                    </li>
+                </a>
+                <a href="#">
+                    <li class="col-sm-4 col-xs-12 in">
+                        <i></i>Instagram
+                    </li>
+                </a>
+                <a href="#">
+                    <li class="col-sm-4 col-xs-12 tw">
+                        <t></t>Twitter
+                    </li>
+                </a>
+            </div>
+
+            <div class="col-lg-6 col-sm-6 col-xs-12">
+                <span>2016 © Travel Company. Todos os direitos reservados. <a href="http://dzestudio.com.br/" target="_blank"><dz></dz></a></span>
+
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="js/all.min.js"></script>
+</body>
